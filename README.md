@@ -11,6 +11,8 @@ Summary: A Python package for creating interactive maps with anywidget and TypeS
 
 Development: https://github.com/opengeos/anymap-ts
 
+Documentation: https://ts.anymap.dev
+
 anymap-ts is a Python package for creating interactive maps with anywidget and TypeScript.
 
 
