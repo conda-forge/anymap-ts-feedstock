@@ -43,6 +43,7 @@ about:
     anymap-ts is a Python package for creating interactive maps with anywidget and TypeScript.
   license: MIT
   license_file: LICENSE
+  doc_url: https://ts.anymap.dev
   dev_url: https://github.com/opengeos/anymap-ts
 
 extra:
