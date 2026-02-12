@@ -1,5 +1,5 @@
 {% set name = "anymap-ts" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/anymap_ts-{{ version }}.tar.gz
-  sha256: bd09e6753fc8359f87ae0099481a0b7de7bb2b678fd2a7ad1e8386c5b9eb8f23
+  sha256: 83b7aa55e943f6df703e24f6238a7d8f3e07e9e387a99ae8b2244751eefa0ffd
 
 build:
   noarch: python
