@@ -1,5 +1,5 @@
 {% set name = "anymap-ts" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/anymap_ts-{{ version }}.tar.gz
-  sha256: 83b7aa55e943f6df703e24f6238a7d8f3e07e9e387a99ae8b2244751eefa0ffd
+  sha256: 4a4ba827db49550fe5a4c50943a6b153c654287363e2ab50be56f32c3819674c
 
 build:
   noarch: python
@@ -43,6 +43,7 @@ about:
     anymap-ts is a Python package for creating interactive maps with anywidget and TypeScript.
   license: MIT
   license_file: LICENSE
+  doc_url: https://ts.anymap.dev
   dev_url: https://github.com/opengeos/anymap-ts
 
 extra:
