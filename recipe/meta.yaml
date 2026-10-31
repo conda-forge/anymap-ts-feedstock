@@ -1,13 +1,13 @@
 {% set name = "anymap-ts" %}
-{% set version = "0.17.2" %}
+{% set version = "0.17.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/87/70/31cae83a3055956d60d18eb3a99f6b51173bcfd6991d8416e4187282df16/anymap_ts-{{ version }}.tar.gz
-  sha256: 72e3bcc43c0fc3eae838c54269b7c5be2014c9530b565ce84927dfbc343d3cc0
+  url: https://files.pythonhosted.org/packages/59/c5/52d7f97ae6a538a05c0a264e675d09568a2b0d435fea3ac6b787da7c1876/anymap_ts-{{ version }}.tar.gz
+  sha256: 8e55074c997b9345c48610f8a199b64a588a7479113629c48d1f3b36aae749dc
 
 build:
   noarch: python
